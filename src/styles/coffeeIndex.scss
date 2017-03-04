@@ -1,0 +1,245 @@
+*{
+  margin:0;
+  padding:0;
+}
+html, body{
+    width:100%;
+    height:100%;
+    background-color : #FFFFFF;
+}
+li{
+   list-style:none;
+}
+.clearFloat{
+  clear: both;
+}
+.title-s{
+    font-size: 14px !important;
+    color: #000;
+    padding: 10px 0px;
+    border-bottom: solid 1px #e6e6e6;
+}
+/*head-text --- start*/
+.head-text{
+   width:100%;
+   height:35px;
+   background-image: url(../images/headText.fw.png) ;
+   background-repeat: no-repeat;
+  }
+
+/*head-text --- end*/
+
+/*top --- start*/
+.top{
+   position:relative;
+   overflow:hidden;/*清除浮动*/
+   @at-root{
+   /*top-left --- start*/
+   .top-left{
+   float: left;
+   width:420px;
+   height:400px;
+   margin-top:15px;
+   .scroll-img{
+   width:400px;
+   height:300px;
+   margin:10px;
+   }
+   .top-left-p{
+   font-size : 15px;
+   text-align: left;
+   margin-top:15px;
+   }
+   }
+   /*top-left ---  end*/
+
+   /*top-right --- start*/
+   .top-right{
+   float: left;
+   width:300px;
+   height:450px;
+   margin-top:10px;
+   /*overflow-x:hidden;*/
+   scrollbar-face-color: #ededf3;
+   scrollbar-shadow-color: #93949f;
+   scrollbar-3dlight-color: #ededf3;
+   scrollbar-arrow-color: #082468;
+   scrollbar-track-color: #f7f7f9;
+    scrollbar-darkshadow-color: #ededf3;
+    overflow:auto;
+   li{
+      margin:0;
+   }
+   .pre-list{
+   background-color:hsla(60, 3%, 55%, 0.27);
+   }
+  .other-list{
+   background-color:#fff;
+   }
+   .list-unit{
+   width:250px;
+   height:90px;
+   vertical-align:middle;
+   }
+  .img-list{
+   float:left;
+   width:120px;
+   height:80px;
+   margin:5px 5px;
+   }
+    .topright-p{
+      font-family : 微软雅黑,宋体;
+     font-size : 5px;
+     text-align: left;
+     margin:0 auto;
+     padding-top:20px;
+
+    }
+   }
+   /*top-right ---  end*/
+
+   /*index-log --- start*/
+   .index-log{
+   float: right;
+   width:320px;
+   heigth:auto;
+   margin-top:10px;
+   margin-right:15px;
+   box-sizing: border-box;
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+   padding:10px 5px ;
+   span{
+    color: #70b31a;
+    display: block;
+    font-size : 10px;
+    z-index: 2;
+   }
+   .index-reg{
+    margin: 30px 0 0 0px;
+    width: 270px;
+    color:#222;
+    font-family : 微软雅黑;
+    font-color:#222;
+   }
+   .login-list{
+   margin-bottom:10px;
+   }
+   .index-password{
+    background-image: url(../images/index-password.jpg);
+    background-repeat: no-repeat;
+    background-position: 150px center;
+   }
+   .login-btn{
+    background-color: #E4F2FF;
+    border: 1px solid #AACAE6;
+    color: #123456;
+    -webkit-appearance: button;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 14px;
+    padding: 2px 1px;
+    vertical-align: mid;
+    margin-left:10px;
+   }
+   }
+/*index-log --- end*/
+
+
+/*friend --- start*/
+.friend{
+   float:right;
+  .friend-title{
+   position:relative;
+   top:10px;
+   left:-17px;
+   width:320px;
+   }
+   .friend-list{
+   position:relative;
+   top:20px;
+   left:-17px;
+   box-sizing: border-box;
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+   padding:10px;
+   width:318px;
+   height:234px;
+   overflow:scroll;
+  .friend-ul{
+  position:absolute;
+  transform-origin: 0 50% 0;
+  transform-style: preserve-3d;
+  transition: top 1.0s ease;
+  }
+  .friend-img{
+     width:80px;
+     height:65px;
+     float:left;
+    }
+    .friend-brief{
+    float:left;
+    width:200px;
+    heigth:65px;
+    background-color:#ff0;
+    margin-left:10px;
+    margin-top:5px;
+    }
+    .friend-name{
+    font-family : 宋体;
+    font-color:#000;
+    font-weight: bold;
+    }
+    .friend-qianming{
+    font-family : 华文楷体;
+    font-size:13px;
+    }
+    .friend-li{
+    margin:0;
+    margin-bottom:10px;
+     overflow:hidden;
+     background-color:#c71414;
+     /*需要清除盒子内的浮动，才可以把li撑开*/
+    }
+   }
+
+}
+/*friend --- end*/
+
+   }
+
+}
+/*top --- end*/
+
+
+/*coffee-think -- start*/
+.coffee-think{
+margin-top:5px;
+width:100%;
+overflow:hidden;
+  @at-root{
+.think-li{
+float: left;
+width:250px;
+height:290px;
+padding:10px 8px;
+box-sizing: border-box;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  }
+  .think-img{
+  width:216px;
+  height:150px;
+  }
+  .think-p{
+     background-color:#e6e6e6;
+     padding:5px 5px;
+    font-family: 微软雅黑,宋体;
+    font-size: 5px;
+    text-align: left;
+    margin: 20px auto;
+    width:235;
+    height:90px;
+}
+}
+
+}
+
